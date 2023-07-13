@@ -1,0 +1,92 @@
+@font-face {
+    font-family: rusia;
+    src: url(../fonts/Strengthen.ttf);
+}
+body{
+  background:#0e3742;
+  align:center;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.navbar .navbar-light .bg-light{
+  background-color: yellow;
+}
+
+
+.container-fluid{
+  background:transparent;
+}
+.cero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+   
+    font-family: rusia;
+  }
+  h2{
+    position: relative;
+    font-size: 8em;
+    color: #0e3742;
+    text-align: center;
+    -webkit-box-reflect: below -42px linear-gradient(transparent, #0004);
+  }
+  span{
+    animation: animate 5s linear infinite;
+    margin: 0 5px; 
+  }
+  span:nth-child(even){
+    animation-delay: 0.4s;
+  }
+  @keyframes animate{
+    0%, 18%, 20%, 50.1%, 60%, 65.1%, 80%, 90.1%, 92%
+    {
+      color: #ff1702;
+      text-shadow: none;
+    }
+    18.1%, 20.1%, 30%, 50%, 60.1%, 65%, 80.1%, 90%, 92.1%, 100%
+    {
+      color: #000000;
+      text-shadow: 0 0 10px #000000,
+      0 0 20px #ffffff,
+      0 0 40px #ffffff,
+      0 0 80px #ffffff,
+      0 0 160px #ffffff,
+      0 0 400px #ffffff;
+    }
+  }
+  
+.uno  div{
+    display: inline-block;
+   flex-direction: row;
+   margin-top: 50px;
+   margin-right: 50px;
+  
+}
+.card:hover{
+    color: white;
+    background: black;
+}
+
+.dos  div{
+    display: inline-block;
+   flex-direction: row;
+   margin-top: 50px;
+   margin-right: 50px;
+   margin-right: 50px;
+  
+}
+
+
+.tres  div{
+    display: inline-block;
+   flex-direction: row;
+   margin-top: 50px;
+   margin-right: 50px;
+   margin-right: 50px;
+   
+}
+
